@@ -1,16 +1,23 @@
 {
-  "name": "webspider",
+  "name": "01-web-spider",
   "version": "1.0.0",
-  "description": "",
-  "main": "spider.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=14"
   },
+  "engineStrict": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node spider.js"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mkdirp": "^3.0.1",
-    "slug": "^8.2.3",
-    "superagent": "^8.1.2"
+    "cheerio": "^1.0.0-rc.12",
+    "mkdirp": "^0.5.5",
+    "slug": "^1.1.0",
+    "superagent": "^5.2.2"
   }
 }
