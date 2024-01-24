@@ -1,14 +1,32 @@
-const http = require("http");
+const express = require("express");
 
-const requestListener = (req, res) => {
-  console.log(req);
-  res.write("Hello World \n");
-  res.end();
-};
+const server = express();
 
-const server = http.createServer();
-server.on("request", requestListener);
+server.set("view engine", "ejs");
+
+server.get("/", (req, res) => {
+  res.render("index");
+});
+
+server.get("/about", (req, res) => {
+  res.render("about");
+});
 
 server.listen(4242, () => {
-  console.log("Server is running");
+  console.log("Express server is running");
 });
+
+
+collection = ["element 1", "element 2", "element 3"]
+
+const iteratorCallback(element, callback){
+  console.log(`Processing element: ${element}`)
+  callback()
+}
+ 
+const finalCallback(){
+  console.log("All elements processed!")
+}
+  
+
+iterateSeries(collection, iteratorCallback, finalCallback)
