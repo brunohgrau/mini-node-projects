@@ -1,24 +1,41 @@
-const MongoClient = require("mongodb").MongoClient;
-
-// Repo & Data
-const circulationRepo = require("./repos/circulationRepo");
-const data = require("./circulation.json");
+const { MongoClient } = require("mongodb");
 
 // DB Url & Name
-const url = "mongodb://localhost:27017";
-const dbName = "circulation";
+const url = require("./compass_url");
+const dbName = "bank";
+
+// Repo & Collection & Data
+const bankRepo = require("./repos/bankRepo");
+const data = require("./sampleAccounts.json");
+const collection_name = "accounts";
 
 async function main() {
-  // Create & Connect Client
+  // connectToDatabase()
   const client = new MongoClient(url);
   await client.connect();
 
-  // Load Data into DB
-  const results = await circulationRepo.loadData(data);
-  console.log(results.insertedCount, results.ops);
+  try {
+    // Insert/Load data into  db
+    const results = await bankRepo.loadData(data);
+    // Get Data from Db
+    const getData = await bankRepo.get();
 
-  const admin = client.db(dbName).admin();
-  console.log(await admin.listDatabases());
+    // Filter Data from DB
+    const filterData = await bankRepo.get({ Account: getData[2].account_id });
+    console.log(filterData);
+  } catch (error) {
+    console.log(error);
+  } finally {
+    // listDatabases()
+    const admin = client.db(dbName).admin();
+    console.log(await admin.listDatabases());
+
+    // Clean Db
+    // await client.db(dbName).dropDatabase();
+
+    // Close Connection
+    // client.close();
+  }
 }
 
 main();

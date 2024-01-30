@@ -1,0 +1,16 @@
+[
+  {
+    "account_holder": "A",
+    "account_id": "je",
+    "account_type": "checking",
+    "balance": 9,
+    "last_updated": "today"
+  },
+  {
+    "account_holder": "r",
+    "account_id": "daae",
+    "account_type": "checking",
+    "balance": 27,
+    "last_updated": "today"
+  }
+]
