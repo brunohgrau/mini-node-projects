@@ -28,9 +28,10 @@ async function main() {
       Newspaper: getData[4].Newspaper,
     });
     assert.deepEqual(filterData[0], getData[4]);
-    console.log(filterData[0]);
 
     // Limit Data
+    const limitData = await circulationRepo.get({}, 3);
+    assert.equal(limitData.length, 3);
   } catch (error) {
     console.log(error);
   } finally {

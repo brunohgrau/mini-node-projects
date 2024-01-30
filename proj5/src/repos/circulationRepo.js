@@ -6,7 +6,7 @@ function circulationRepo() {
   const dbName = "circulation";
   const collection_name = "newspapers";
 
-  function get(query) {
+  function get(query, limit) {
     return new Promise(async (resolve, reject) => {
       // connectToDatabase()
       const client = new MongoClient(url);
@@ -15,7 +15,12 @@ function circulationRepo() {
         // connectToDatabase()
         await client.connect();
         // find()
-        const items = accountsCollection.find(query);
+        let items = accountsCollection.find(query);
+        // limit()
+        if (limit > 0) {
+          items = items.limit(limit);
+        }
+
         resolve(await items.toArray());
         client.close();
       } catch (error) {
