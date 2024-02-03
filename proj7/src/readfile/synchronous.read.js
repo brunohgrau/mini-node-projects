@@ -1,4 +1,4 @@
-const { convertCsv } = require("./csv.parse");
+const { convertCsv } = require("../csv.parse");
 const { readFileSync } = require("fs");
 
 try {

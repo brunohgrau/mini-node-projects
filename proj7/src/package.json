@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon synchronous.read.js"
+    "dev": "nodemon synchronous.read.partial.js"
   },
   "author": "",
   "license": "ISC",
