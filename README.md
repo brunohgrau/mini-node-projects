@@ -1,6 +1,9 @@
 # Mini node  projects
 
-#CSV-Writer: Create and write csv files with the command line 
+#__CSV-Writer__: Create and write csv files with the command line 
+
+#__Restaurant Server__: Express Server with EJS Templating
+
 
 #Proj3: Building a REST API in JavaScript with Express (Steve Buchanan, 2023)
 
