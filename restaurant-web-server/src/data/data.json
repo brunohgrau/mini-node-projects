@@ -1,0 +1,12 @@
+{
+  "_id": "2012jpsa",
+  "fistName": "Joe",
+  "lastName": "Doe",
+  "address": {
+    "street": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+  },
+  "hobbies": ["traveling", "music"]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "trackID": 1,
+    "trackName": "Piano Jam",
+    "label": "Esperanza",
+    "releaseYear": 2022,
+    "catalogNumber": "ESP 001",
+    "spotifyPlays": 15,
+    "youtubePlays": 3,
+    "id": "986d2a21-c5b8-4510-929e-8df664c3de29"
+  },
+  {
+    "trackID": 2,
+    "trackName": "New Generation",
+    "label": "Esperanza",
+    "releaseYear": 2022,
+    "catalogNumber": "ESP 001",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "22bfe0f2-66e7-492d-8ba1-92e883aa3808"
+  },
+  {
+    "trackID": 3,
+    "trackName": "Saga",
+    "label": "Esperanza",
+    "releaseYear": 2022,
+    "catalogNumber": "ESP 002",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "c9214882-4992-4504-aff2-69a922456276"
+  },
+  {
+    "trackID": 4,
+    "trackName": "Day",
+    "label": "Esperanza",
+    "releaseYear": 2022,
+    "catalogNumber": "ESP 003",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "fb2e6436-366f-4a73-b91f-87a61044e80f"
+  },
+  {
+    "trackID": 5,
+    "trackName": "You Bet",
+    "label": "Esperanza",
+    "releaseYear": 2023,
+    "catalogNumber": "ESP 004",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "a5fc0602-b378-44e9-bfd2-aaba70df8d16"
+  },
+  {
+    "trackID": 6,
+    "trackName": "2 O´Clock",
+    "label": "Esperanza",
+    "releaseYear": 2023,
+    "catalogNumber": "ESP 005",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "df3a8f26-1caf-4bca-9641-94bb1654915f",
+    "test": "test",
+    "test2": "test"
+  },
+  {
+    "trackID": 7,
+    "trackName": "La Cintura",
+    "label": "Esperanza",
+    "releaseYear": 2023,
+    "catalogNumber": "ESP 006",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "e609fc2b-c9db-4d1b-a20c-1eedc47e5a5f"
+  },
+  {
+    "trackID": 8,
+    "trackName": "Check 2",
+    "label": "Esperanza",
+    "releaseYear": 2023,
+    "catalogNumber": "ESP 007",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "d9a27db8-e73e-4d46-b3a1-7dcd6a2bb19a"
+  },
+  {
+    "trackID": 9,
+    "trackName": "Try",
+    "label": "Esperanza",
+    "releaseYear": 2024,
+    "catalogNumber": "ESP 008",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "6c16b07f-d8d5-466b-b048-3bdefaad5f46"
+  },
+  {
+    "trackID": 10,
+    "trackName": "Dont U",
+    "label": "Esperanza",
+    "releaseYear": 2024,
+    "catalogNumber": "ESP 008",
+    "spotifyPlays": 10,
+    "youtubePlays": 2,
+    "id": "b4e23331-7e40-4908-8614-51629645e12c"
+  }
+]
