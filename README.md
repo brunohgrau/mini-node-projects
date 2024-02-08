@@ -4,6 +4,7 @@
 
 #__Restaurant Server__: Express Server with EJS Templating
 
+#__Libray API__: REST API with DB Connection
 
 #Proj3: Building a REST API in JavaScript with Express (Steve Buchanan, 2023)
 
